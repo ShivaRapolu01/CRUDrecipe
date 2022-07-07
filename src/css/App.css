@@ -1,5 +1,5 @@
 /* this below line[is very important] ensures that on different browsers the code functions as expected */
-@import-normalize;
+
 @import 'buttons.css';
 @import '../css/Recipe.css';
 @import 'recipeEdit.css';
@@ -25,5 +25,6 @@ html{
 
 .custom{
     max-width: 40px;
+    max-height: 35px;
     border: none;
 }
